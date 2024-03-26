@@ -12,6 +12,8 @@ public class LinearEquationSolver {
         return -b / a;
     }
 
+
+    
     @Test
     public void testSolve() {
         double a = 2;
