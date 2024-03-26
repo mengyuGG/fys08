@@ -12,6 +12,8 @@ public class LinearEquationSolver {
         return -b / a;
     }
 
+
+    
     @Test
     public void testSolve() {
         double a = 2;
@@ -21,5 +23,9 @@ public class LinearEquationSolver {
         System.out.println("预期结果: " + expected);
         System.out.println("实际结果: " + actual);
         Assert.assertEquals(expected, actual, 0.0001);
+
+
+
+        
     }
 }
